@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI Calculator</title>
+</head>
+<body>
+	<div>
+		<script type="text/javascript">
+
+		var pounds=parseFloat(prompt ("weight in pounds"));
+		var feet=parseFloat(prompt ("height in feet"));
+		var inches=parseFloat(prompt ("height in inches"));
+		var kilos=pounds/2.2;
+		var totalInches=(feet*12)+parseFloat(inches);
+		var meters=totalInches*0.0254;
+		var BMI=kilos/(meters*meters);
+		console.log(BMI);
+		</script>
+</body>
+</html>
